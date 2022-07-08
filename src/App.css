@@ -1,0 +1,87 @@
+@font-face {
+  font-family: SCPbold;
+  src: url('./font/SourceCodePro-Bold.ttf');
+}
+@font-face {
+  font-family: SCPsb;
+  src: url('./font/SourceCodePro-SemiBold.ttf');
+}
+@font-face {
+  font-family: SCPlight;
+  src: url('./font/SourceCodePro-Light.ttf');
+}
+@font-face {
+  font-family: SCPregular;
+  src: url('./font/SourceCodePro-Regular.ttf');
+}
+
+
+*,
+*:before
+*:after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+img {
+  list-style: none;
+}
+input {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border: none;
+  border:none;
+  background-image:none;
+  background-color:transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+body {
+  margin: 0;
+  height: 110vh;
+  line-height: 1;
+  font-size: 16px;
+  background: radial-gradient(51.85% 51.85% at 49.04% 48.15%, #292929 0%, #0F0F0F 100%);
+  overflow: hidden;
+}
+._container_h{
+  width: 95%;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+/*=========================================================================================*/
+.header__logo{
+  margin: 35px 0px 0px 35px;
+  transition: 1s;
+  z-index: 20;
+  opacity: 0.73;
+}
+.header__logo:hover{
+  opacity: 1;
+}
+.active{
+  background-color: #0F0F0F;
+}

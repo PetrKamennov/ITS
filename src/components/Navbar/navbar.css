@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ---------------- Navbar and burger menu ------------------ */
+.menu__list{
+    padding-inline-start: 0px;
+    text-align: center;
+}
+.header__txt{
+    display: block;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #ACACAC;
+    margin-bottom: 60px;
+}
+.header__txt:hover:after,
+.header__txt:hover:before{
+  width: 53px;
+  border: 1px solid #25B1B1;
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 18px;
+  animation: 0.3s linear 0s menu;
+}
+nav {
+    width: 100%;
+    height: 3em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.burger-menu {
+    z-index: 10;
+    margin: -80px 35px 0px 0px;
+    height: 100%;
+    width: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.burger-bar {
+    width: 4em;
+    height: 1px;
+    background-color: #f3f3f3;
+    border: 1px solid #F3F3F3;
+}
+
+.menu {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    transition:visibility 0.2s linear ,opacity 0.2s linear;
+}
+
+/* ------------- sliding menu ------------------ */
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.visible {
+    background: #0F0F0F;
+    visibility: visible;
+    opacity: 1;
+}
+
+/* ----- animations--------- */
+/* clicked */
+.burger-bar.clicked:nth-child(1){
+    transform: rotate(45deg) translate(18px, 15px);
+    transition: ease-out 0.5s;
+}
+
+.burger-bar.clicked:nth-child(2){
+    transform: scale(0.1);
+    transition: ease-out 0.5s;
+}
+
+.burger-bar.clicked:nth-child(3){
+    transform: rotate(135deg) translate(-17px, 15px);
+    transition: ease-out 0.5s;
+}
+
+/* unclicked */
+.burger-bar.unclicked {
+    transform: rotate(0) translate(0);
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+}
+/* keyframes */
+@keyframes menu {
+    0% {
+      width: 0px;
+    }
+  
+    100% {
+      width: 53px
+    }
+  }
+
+.header__logo{
+  margin: 35px 0px 0px 35px;
+  transition: 1s;
+  z-index: 20;
+  opacity: 0.73;
+}
+.header__logo:hover{
+  opacity: 1;
+}
+.active{
+  background: #0F0F0F;
+  transition: background 0.2s linear;
+}
