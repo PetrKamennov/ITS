@@ -28,7 +28,7 @@ export class Calendar extends React.Component {
     get day() {
         return this.state.date.getDate();
     }
-
+    
     render() {
         const { years, monthNames, weekDayNames} = this.props;
         const { currentDate, selectedDate } = this.state;
@@ -40,27 +40,39 @@ export class Calendar extends React.Component {
                 <div>
                     <h1 value={this.month} className="calendar__month">{monthNames[currentDate.getMonth()]}, {this.year}</h1>
                 </div>
-                <table>
-                    <thead>
-                        <tr>
-                            {weekDayNames.map(name =>
-                                <th key={name} className='dayonweek'>{name}</th>    
-                            )}
-                        </tr>
-                    </thead>
+                <div>
+                    <div className="calendar__left">
+                        <table>
+                            <thead>
+                                <tr>
+                                    {weekDayNames.map(name =>
+                                        <th key={name} className='dayonweek'>{name}</th>    
+                                    )}
+                                </tr>
+                            </thead>
 
-                    <tbody>
-                        {monthData.map((week, index) =>
-                            <tr key={index} className="week">
-                                {week.map((date, index) => date ?
-                                    <td key={index} className={classNames('day', {'today': calendar.areEqual(date, currentDate)})}>{date.getDate()}</td>
-                                    :
-                                    <td key={index}></td>
+                            <tbody>
+                                {monthData.map((week, index) =>
+                                    <tr key={index} className="week">
+                                        {week.map((date, index) => date ?
+                                            <td key={index} className={classNames('day', {'today': calendar.areEqual(date, currentDate)})}>{date.getDate()}</td>
+                                            :
+                                            <td key={index}></td>
+                                        )}
+                                    </tr>
                                 )}
-                            </tr>
-                        )}
-                    </tbody>
-                </table>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div className="calendar__right">
+                        <ul>
+                            <li>
+                                <span></span>
+                                <span></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         );     
     }

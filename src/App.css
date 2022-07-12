@@ -73,15 +73,23 @@ body {
   justify-content: space-between;
 }
 /*=========================================================================================*/
-.header__logo{
-  margin: 35px 0px 0px 35px;
-  transition: 1s;
-  z-index: 20;
-  opacity: 0.73;
+@keyframes fade-in {
+  0%{
+    opacity: 0;
+    transform: translateX(-400px);
+  }
+  100%{
+    transform: translateX(0px);
+    opacity: 1;
+  }
 }
-.header__logo:hover{
-  opacity: 1;
-}
-.active{
-  background-color: #0F0F0F;
+@keyframes fade-out {
+  0%{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  100%{
+    transform: translateX(100%);
+    opacity: 0;
+  }
 }

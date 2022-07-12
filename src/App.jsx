@@ -1,34 +1,66 @@
 import React from 'react';
 import { useTransition, animated } from 'react-spring';
-import { 
-    BrowserRouter as Router, 
-    Route, 
+import {
+    Route,  
     Routes, 
-    useLocation 
+    useLocation, 
 } from 'react-router-dom';
-import { Calendar } from './pages/index';
+import {Calendar} from './pages/index';
 import Navbar from './components/Navbar/navbar';
-import { Direction } from './pages/Direction';
+import {Direction} from './pages/Direction';
 import "./App.css";
+import moment from 'moment';
 
 
 
 function App() {
+    const location = useLocation();
+
+    const transitions = useTransition(location, 
+            (location) => location.pathname, 
+            {
+            from: {
+                opacity: 0,
+                transform: 'translateY(-500px)',
+                transition: 'all 0.5s linear 0s'
+            },
+            enter: {
+                opacity: 1,
+                transform: 'translateY(0px)',
+                transition: 'all 0.5s linear 0s'
+            },
+            leave: {
+                opacity: 0,
+                transform: 'translateY(500px)',
+                transition: 'all 0.5 ease 0s'
+            },
+        }
+    );
+
     return (
-        <div className='App'>
-            <Router>
+            <>
                 <Navbar/>
-                <Routes>
-                    <Route exact path="/" element='Homepage'/>
-                    <Route exact path="/about" element="About"/>
-                    <Route exact path="/directions" element={ <Direction/> }/>
-                    <Route exact path="/application" element="Application"/>
-                    <Route exact path="/calendar" element = { <Calendar/> }/>
-                    <Route exact path="/blog" element="Blog"/>
-                    <Route exact path="/contacts" element="Contacts"/>
-                </Routes>
-            </Router>
-        </div>
+                <main 
+                    className='container'
+                    style={{position:'relative', overflow: 'hidden', minHeight: '90vh'}}
+                >
+                {transitions.map(({item, props, key}) => (
+                    <animated.div key={key} style={props}>
+                        <div style={{position:'absolute', width: '100%'}}>
+                        <Routes location={item}>
+                            <Route path = "/" element ='Homepage'/>
+                            <Route path = "/about" element ="About"/>
+                            <Route path = "/directions" element = {<Direction/>}/>
+                            <Route path = "/application" element = "Application"/>
+                            <Route path = "/calendar" element = {<Calendar/>}/>
+                            <Route path = "/blog" element = "Blog"/>
+                            <Route path = "/contacts" element = "Contacts"/>
+                        </Routes>
+                        </div>
+                    </animated.div>
+                ))}
+                </main>
+            </>
     );
 }
 

@@ -26,11 +26,16 @@ const Navbar = () => {
         }
         setIsMenuClicked(!isMenuClicked)
     }
+    const paginationOnSite = () => {
+        setBurgerClass("burger-bar unclicked")
+        setMenuClass("menu hidden")
+        setHeaderClass("header")
+    }
     
 
     return(
             <header className={header__class}>
-                <Link to="/"><img src={logo} alt='logo' className='header__logo'/></Link>
+                <Link to="/" onClick={paginationOnSite}><img src={logo} alt='logo' className='header__logo'/></Link>
                 <div>
                     <nav>
                         <div className="burger-menu" onClick={updateMenu}>
@@ -43,22 +48,22 @@ const Navbar = () => {
                     <div className={menu_class}>
                         <ul className="menu__list">
                             <li>
-                                <Link to="/about" className="header__txt">О НАС</Link>
+                                <Link to="/about" className="header__txt" onClick={paginationOnSite}>О НАС</Link>
                             </li>
                             <li>
-                                <Link to="/directions" className="header__txt">НАПРАВЛЕНИЯ</Link>
+                                <Link to="/directions" className="header__txt" onClick={paginationOnSite}>НАПРАВЛЕНИЯ</Link>
                             </li>
                             <li>
-                                <Link to="/application" className="header__txt">ПОДАТЬ ЗАЯВКУ</Link>
+                                <Link to="/application" className="header__txt" onClick={paginationOnSite}>ПОДАТЬ ЗАЯВКУ</Link>
                             </li>
                             <li>
-                                <Link to="/calendar" className="header__txt">КАЛЕНДАРЬ</Link>
+                                <Link to="/calendar" className="header__txt" onClick={paginationOnSite}>КАЛЕНДАРЬ</Link>
                             </li>
                             <li>
-                                <Link to="/blog" className="header__txt">БЛОГ</Link>
+                                <Link to="/blog" className="header__txt" onClick={paginationOnSite}>БЛОГ</Link>
                             </li>
                             <li>
-                                <Link to="/contacts" className="header__txt">КОНТАКТЫ</Link>
+                                <Link to="/contacts" className="header__txt" onClick={paginationOnSite}>КОНТАКТЫ</Link>
                             </li>
                         </ul>
                     </div>
