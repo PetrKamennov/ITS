@@ -3,10 +3,23 @@
     box-sizing: border-box;
 }
 
+header{
+      position: fixed;
+      z-index: 20;
+      width: 100%;
+      display: flex;
+      padding: 58px 63px;
+      justify-content: space-between;
+      align-items: center;
+}
+
 /* ---------------- Navbar and burger menu ------------------ */
 .menu__list{
     padding-inline-start: 0px;
     text-align: center;
+}
+.menu__list:not(:last-child) {
+  margin-bottom: 0;
 }
 .header__txt{
     display: block;
@@ -16,8 +29,8 @@
     font-size: 40px;
     line-height: 50px;
     text-align: center;
+    margin-bottom: 50px;
     color: #ACACAC;
-    margin-bottom: 60px;
 }
 .header__txt:hover:after,
 .header__txt:hover:before{
@@ -36,7 +49,7 @@ nav {
     justify-content: flex-end;
 }
 
-.burger-menu {
+.burger_menu {
     z-index: 10;
     margin: -80px 35px 0px 0px;
     height: 100%;
@@ -56,13 +69,23 @@ nav {
 }
 
 .menu {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     position: absolute;
     z-index: 1;
-    transition:visibility 0.2s linear ,opacity 0.2s linear;
-}
+    left: 0;
+    top: 0;
+    transform: translateY(100%);
+    transition: 2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
+}
+.menu.visible{
+  transform: translateY(0);
+}
 /* ------------- sliding menu ------------------ */
 .hidden {
     visibility: hidden;
@@ -70,33 +93,12 @@ nav {
 }
 
 .visible {
-    background: #0F0F0F;
+    background: #000000;
     visibility: visible;
     opacity: 1;
 }
 
 /* ----- animations--------- */
-/* clicked */
-.burger-bar.clicked:nth-child(1){
-    transform: rotate(45deg) translate(18px, 15px);
-    transition: ease-out 0.5s;
-}
-
-.burger-bar.clicked:nth-child(2){
-    transform: scale(0.1);
-    transition: ease-out 0.5s;
-}
-
-.burger-bar.clicked:nth-child(3){
-    transform: rotate(135deg) translate(-17px, 15px);
-    transition: ease-out 0.5s;
-}
-
-/* unclicked */
-.burger-bar.unclicked {
-    transform: rotate(0) translate(0);
-    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
-}
 /* keyframes */
 @keyframes menu {
     0% {
@@ -109,15 +111,104 @@ nav {
   }
 
 .header__logo{
-  margin: 35px 0px 0px 35px;
   transition: 1s;
-  z-index: 20;
+  z-index: 20333;
   opacity: 0.73;
 }
 .header__logo:hover{
   opacity: 1;
 }
-.active{
-  background: #0F0F0F;
-  transition: background 0.2s linear;
-}
+
+
+    .menu__icon {
+      transition: 5s;
+      height: 25px;
+      width: 68px;
+      display: block;
+      position: relative;
+      z-index: 5;
+    }
+  
+    .menu__icon span,
+    .menu__icon::before,
+    .menu__icon::after {
+      position: absolute;
+      height: 2px;
+      width: 68px;
+      transition: all 0.5s ease 0s;
+      background-color: #FFFFFF;
+    }
+  
+    .menu__icon::before,
+    .menu__icon::after {
+      content: "";
+    }
+  
+    .menu__icon::before {
+      top: 0;
+      width: 37px;
+      margin-left: 31px
+    }
+  
+    .menu__icon::after {
+      bottom: 0;
+      width: 53.5px;
+      margin-left: 14.5px
+    }
+  
+    .menu__icon span {
+      top: 50%;
+      transform: scale(1) translate(0px, -50%);
+    }
+  
+    .menu__icon:hover span,
+    .menu__icon:hover::before {
+      width: 53.5px;
+      margin-left: 14.5px;
+    }
+  
+    .menu__icon.active {
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 0s linear 0.2s, opacity 0.2s linear;
+    }
+  
+    .menu__icon-close {
+      width: 70px;
+      height: 70px;
+      transition: 1s;
+      transform: translateY(-200px);
+      position: absolute;
+      right: 63px;
+      z-index: 2;
+    }
+  
+    .menu__icon-close.active {
+      transform: translateY(0);
+    }
+  
+    .menu__icon-close__top {
+      width: 70px;
+      top: 50%;
+      transform: rotate(45deg);
+      position: absolute;
+      border: 1px solid #F3F3F3;
+      transition: 1s;
+    }
+  
+    .menu__icon-close__bottom {
+      border: 1px solid #F3F3F3;
+      width: 70px;
+      top: 50%;
+      transform: rotate(-45deg);
+      position: absolute;
+      transition: 1s;
+    }
+  
+    .menu__icon-close:hover .menu__icon-close__top {
+      transform: rotate(0);
+    }
+  
+    .menu__icon-close:hover .menu__icon-close__bottom {
+      transform: rotate(0);
+    }

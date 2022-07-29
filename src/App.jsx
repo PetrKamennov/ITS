@@ -9,7 +9,9 @@ import {Calendar} from './pages/index';
 import Navbar from './components/Navbar/navbar';
 import {Direction} from './pages/Direction';
 import "./App.css";
+import {HomePage} from './pages/HomePage';
 import moment from 'moment';
+
 
 
 
@@ -20,9 +22,7 @@ function App() {
             (location) => location.pathname, 
             {
             from: {
-                opacity: 0,
-                transform: 'translateY(-500px)',
-                transition: 'all 0.5s linear 0s'
+                opacity: 1,
             },
             enter: {
                 opacity: 1,
@@ -36,19 +36,20 @@ function App() {
             },
         }
     );
+  
 
     return (
             <>
                 <Navbar/>
                 <main 
                     className='container'
-                    style={{position:'relative', overflow: 'hidden', minHeight: '90vh'}}
+                    style={{position:'relative', overflow: 'hidden', minHeight: '100vh'}}
                 >
                 {transitions.map(({item, props, key}) => (
                     <animated.div key={key} style={props}>
                         <div style={{position:'absolute', width: '100%'}}>
                         <Routes location={item}>
-                            <Route path = "/" element ='Homepage'/>
+                            <Route path = "/" element = {<HomePage/>}/>
                             <Route path = "/about" element ="About"/>
                             <Route path = "/directions" element = {<Direction/>}/>
                             <Route path = "/application" element = "Application"/>
