@@ -1,0 +1,63 @@
+body, html{
+	margin: 0px;
+	padding: 0px;
+	background: radial-gradient(51.85% 51.85% at 49.04% 48.15%, #292929 0%, #0F0F0F 100%);
+}
+.main_application_sect{
+	width: 1920px;
+	height: 1080px;
+}
+.face_bear{
+	padding: 58px 0px 0px 79px;
+}
+.main_application_block_2page{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 82.03%;
+	margin:0px auto;
+	padding-top: 5.31%;
+}
+.h1_application_2page{
+	max-height: 50px;
+	font-family: 'Mulish', sans-serif;
+	font-size: 40px;
+	font-weight: 400;
+	color: #FFFFFF;
+	margin: 0px;
+}
+.text_appli_2{
+	font-family: 'Mulish', sans-serif;
+	font-size: 31px;
+	font-weight: 300;
+	color: #FFFFFF;
+	text-align: center;
+	margin: 96px 0px 0px 0px;
+}
+.buttons_application_2{
+	display: flex;
+	justify-content: space-between;
+	width: 70.9%;
+	margin: 134px 0px 0px 0px;
+}
+.but_give_app_2page{
+	padding: 27px 77px;
+	font-family: 'Mulish', sans-serif;
+	font-size: 31px;
+	font-weight: 400;
+	color: #FFFFFF;
+	background: #25B1B1;
+	border-radius: 98px;
+	border: none;
+}
+.but_your_offer{
+	padding: 27px 102px;
+	font-family: 'Mulish', sans-serif;
+	font-size: 31px;
+	font-weight: 400;
+	color: #FFFFFF;
+	background: none;
+	border-radius: 98px;
+	border: 6px solid #25B1B1;
+}

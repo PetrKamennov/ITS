@@ -1,0 +1,73 @@
+body, html{
+	margin: 0px;
+	padding: 0px;
+	background: radial-gradient(51.85% 51.85% at 49.04% 48.15%, #292929 0%, #0F0F0F 100%);
+}
+.main_application_sect{
+	width: 1920px;
+	height: 1080px;
+}
+.main_application_block_3page{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 82.03%;
+	margin:0px auto;
+	padding-top: 2.5%;
+}
+.h1_application_3page{
+	max-height: 50px;
+	font-family: 'Mulish', sans-serif;
+	font-size: 40px;
+	font-weight: 400;
+	color: #FFFFFF;
+	margin: 0px;
+}
+h5{
+	font-family: 'Mulish', sans-serif;
+	font-size: 25px;
+	font-weight: 300;
+	color: #FFFFFF;
+	margin: 0px 0px 9px 0px;
+}
+.inputs{
+	display: flex;
+	justify-content: space-between;
+	width: 50.53%;
+}
+.inputs_appli{
+	width: 325px;
+	height: 105px;
+	background: #303030;
+	font-family: 'Mulish', sans-serif;
+	font-size: 25px;
+	font-weight: 300;
+	color: #FFFFFF;
+	border: none;
+	text-align: center;
+}
+.first_inp{
+	margin-top: 4.27%;
+}
+.scnd_inp{
+	margin-top: 1.41%;
+}
+p{
+	font-family: 'Mulish', sans-serif;
+	font-size: 19px;
+	font-weight: 300;
+	color: #FFFFFF;
+	margin-top: 1.98%;
+}
+button{
+	padding: 27px 102px;
+	font-family: 'Mulish', sans-serif;
+	font-size: 31px;
+	font-weight: 400;
+	color: #FFFFFF;
+	background: none;
+	border-radius: 98px;
+	border: 6px solid #25B1B1;
+	margin-top: 3.44%;
+}

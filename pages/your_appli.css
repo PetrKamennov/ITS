@@ -1,0 +1,80 @@
+body, html{
+	margin: 0px;
+	padding: 0px;
+	background: radial-gradient(51.85% 51.85% at 49.04% 48.15%, #292929 0%, #0F0F0F 100%);
+}
+h4{
+	font-family: 'Mulish', sans-serif;
+	font-size: 25px;
+	font-weight: 300;
+	color: #FFFFFF;
+}
+.main_application_sect{
+	width: 1920px;
+	height: 1080px;
+}
+.main_your_appli{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 82.03%;
+	margin:0px auto;
+	padding-top: 10.31%;
+}
+.inputs_app{
+	background: #303030;
+	font-family: 'Mulish', sans-serif;
+	font-size: 17px;
+	font-weight: 300;
+	color: #FFFFFF;
+	border: none;
+}
+.direction_inp{
+	width: 508.07px;
+	height: 55px;
+}
+.info_inp{
+	width:100%;
+	height:236px;
+	padding:4px 9px 5px;
+	margin:0;
+	overflow: clip;
+}
+.inputs::placeholder{
+	padding-left: 20px;
+}
+.input_width{
+	width: 508.07px;
+	height: 245px;
+	flex-wrap: wrap;
+	display: flex;
+}
+.input_shelter_width{
+	height: 245px;
+	margin:0px 5px;
+	position:relative;
+}
+.sliders{
+	max-height: 60px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+h4{
+	font-family: 'Mulish', sans-serif;
+	font-size: 19px;
+	font-weight: 300;
+	color: #FFFFFF;
+}
+hr{
+	color: #FFFFFF;
+	width: 75px;
+	height: 1px;
+	margin-top: 8px;
+}
+.line{
+	display: flex;
+	width: 8%;
+	justify-content: space-between;
+}
