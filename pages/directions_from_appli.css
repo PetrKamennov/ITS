@@ -1,0 +1,37 @@
+body, html{
+	margin: 0px;
+	padding: 0px;
+	background: radial-gradient(51.85% 51.85% at 49.04% 48.15%, #292929 0%, #0F0F0F 100%);
+}
+.main_application_sect{
+	width: 1920px;
+	height: 1080px;
+}
+.main_application_block_directions{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 82.03%;
+	margin:0px auto;
+	padding-top: 10.31%;
+}
+.h1_application_directions{
+	max-height: 50px;
+	font-family: 'Mulish', sans-serif;
+	font-size: 40px;
+	font-weight: 400;
+	color: #FFFFFF;
+	margin: 0px;
+}
+.first_block{
+	margin-top: 100px;
+	display: flex;
+}
+.scnd_block{
+	display: flex;
+	margin-top: 5px;
+}
+svg{
+	cursor: pointer;
+}
