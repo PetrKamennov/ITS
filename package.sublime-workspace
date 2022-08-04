@@ -1,0 +1,1271 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"WI",
+				"width\tproperty"
+			],
+			[
+				"border-r",
+				"border-radius\tproperty"
+			],
+			[
+				"text-w",
+				"text-overflow\tproperty"
+			],
+			[
+				"padding-",
+				"padding-right\tproperty"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"spa",
+				"space-between\tjustify-content"
+			],
+			[
+				"non",
+				"none\t(main.css)"
+			],
+			[
+				"border",
+				"border-color\t(main.css)"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"animaton",
+				"animation\tproperty"
+			],
+			[
+				"stroke-",
+				"stroke-dasharray\tproperty"
+			],
+			[
+				"st",
+				"stroke\tabc"
+			],
+			[
+				"fo",
+				"font-size\tproperty"
+			],
+			[
+				"left_up_",
+				"left_up_first\tabc"
+			],
+			[
+				"animation",
+				"animation-timing-function\tproperty"
+			],
+			[
+				"fl",
+				"flex-direction\tproperty"
+			],
+			[
+				"flex-",
+				"flex-direction\tproperty"
+			],
+			[
+				"fu",
+				"function\tabc"
+			],
+			[
+				"list",
+				"list-style-type\tproperty"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"margin-",
+				"margin-left\tproperty"
+			],
+			[
+				"mar",
+				"margin-left\tproperty"
+			],
+			[
+				"over",
+				"overflow-wrap\tproperty"
+			],
+			[
+				"abi",
+				"ability\t(main.css)"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"ma",
+				"margin-left\tabc"
+			],
+			[
+				"j",
+				"justify-content\tproperty"
+			],
+			[
+				"paddi",
+				"padding-left\tproperty"
+			],
+			[
+				"her",
+				"heroimg\tabc"
+			],
+			[
+				"hero",
+				"herotext\tabc"
+			],
+			[
+				"pa",
+				"padding-top\tabc"
+			],
+			[
+				"Fo",
+				"font-size\tproperty"
+			],
+			[
+				"box-s",
+				"box-shadow\tproperty"
+			],
+			[
+				"bor",
+				"border-radius\tabc"
+			],
+			[
+				"ba",
+				"background-color\tabc"
+			],
+			[
+				"cent",
+				"central_part\t(main.css)"
+			],
+			[
+				"whi",
+				"white_cirkl_1\tabc"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"FW",
+				"font-weight\tproperty"
+			],
+			[
+				"PA",
+				"padding-top\tproperty"
+			],
+			[
+				"w",
+				"wrap\tabc"
+			],
+			[
+				"flex",
+				"flex-wrap\tproperty"
+			],
+			[
+				"padd",
+				"padding-left\tproperty"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"margi",
+				"margin-top\tproperty"
+			],
+			[
+				"io",
+				"iostream\tstandard header"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"g",
+				"grey\tabc"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"bo",
+				"border\t(сайт css.css)"
+			],
+			[
+				"s",
+				"section\tTag"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"border-col",
+				"border-color\tproperty"
+			],
+			[
+				"t",
+				"top\tproperty"
+			],
+			[
+				"c",
+				"color\tabc"
+			],
+			[
+				"ви",
+				"Виноградник.png\tw:1024 h:654"
+			],
+			[
+				"back",
+				"background-image\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"align",
+				"align-items\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/D/Zayavka_SSO/directions_from_appli.html",
+			"settings":
+			{
+				"buffer_size": 91575,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\t<meta charset=\"UTF-8\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\t<title>Document</title>\n\t<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n\t<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n\t<link href=\"https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&display=swap\" rel=\"stylesheet\">\n\t<link rel=\"stylesheet\" href=\"Assets/css/Pre_quest.css\">\n</head>\n<body>\n\t<section class=\"main_quest_sect\" >\n\t\t<div class=\"sliders\">\n\t\t\t<h4>вперед</h4>\n\t\t\t<h4>назад</h4>\n\t\t</div>\n\t\t<div class=\"main_quest_block\">\n\t\t\t<p>Анкета содежрит 15 вопросов, на которые тебе предстоит ответить. Отвечай быстро, не задумываясь. В каждом вопросе можно выбрать несколько вариантов. По итогу ты увидишь статистику, которая основана на твоих ответах. Желаем удачи!</p>\n\t\t</div>\n\t</section>\n\n\t\n</body>\n</html>",
+			"file": "/D/Quest_SSO/Pre_quest.html",
+			"file_size": 1026,
+			"file_write_time": 133032262841569454,
+			"settings":
+			{
+				"buffer_size": 888,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Quest_SSO/first_quest.html",
+			"settings":
+			{
+				"buffer_size": 885,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Quest_SSO/scnd_quest.html",
+			"settings":
+			{
+				"buffer_size": 2212,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Quest_SSO/third_quest.html",
+			"settings":
+			{
+				"buffer_size": 1561,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Zayavka_SSO/last_page_application.html",
+			"settings":
+			{
+				"buffer_size": 1845,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/C++/C++ Single File.sublime-build",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"paca",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"npm start"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/LxMinus/Desktop/ITS-master/src/pages/Pre_quest.css",
+		"/D/Zayavka_SSO/your_appli.html",
+		"/D/Zayavka_SSO/third_page_appli.html",
+		"/D/Quest_SSO/Assets/css/scnd_quest.css",
+		"/D/Quest_SSO/scnd_quest.html",
+		"/D/Zayavka_SSO/scnd_page_application.html",
+		"/D/Zayavka_SSO/Assets/css/your_appli.css",
+		"/D/Zayavka_SSO/Assets/css/directions_from_appli.css",
+		"/D/Zayavka_SSO/Assets/css/scnd_page_application.css",
+		"/D/Zayavka_SSO/Assets/css/third_page_appli.css",
+		"/D/Zayavka_SSO/directions_from_appli.html",
+		"/C/Users/LxMinus/Desktop/Dlyasaita_Alexey/SaitofVine.html",
+		"/D/Zayavka_SSO/Assets/css/main_application.css",
+		"/D/Zayavka_SSO/main_application.html",
+		"/C/Users/LxMinus/Desktop/ITS-master/src/App.jsx",
+		"/C/Users/LxMinus/Desktop/ITS-master/package.json",
+		"/D/Zayavka_SSO/Assets/css/last_page_application.css",
+		"/D/Zayavka_SSO/last_page_application.html",
+		"/C/Users/LxMinus/Desktop/Preloader_SSO/preloader.html",
+		"/C/Users/LxMinus/Desktop/test/assets/js/preloader.js",
+		"/C/Users/LxMinus/Desktop/test/assets/css/preloader.css",
+		"/C/Users/LxMinus/Desktop/test/main.html",
+		"/C/Users/LxMinus/Desktop/Dlyasaita_Alexey/Assets/css/main.css",
+		"/C/Users/LxMinus/Desktop/Preloader_SSO/preloader.css",
+		"/C/Users/LxMinus/Desktop/testrest/assets/css/preloader.css",
+		"/C/Users/LxMinus/Desktop/testrest/main.html",
+		"/C/Users/LxMinus/Desktop/test/assets/css/main.css",
+		"/C/Users/LxMinus/Desktop/ГИС/project/assets/js/main.js",
+		"/C/Users/LxMinus/Desktop/Bear face animation/Assets/css/main.css",
+		"/C/Users/LxMinus/Desktop/Bear face animation/Bear.html",
+		"/C/Users/LxMinus/Desktop/ГИС/project/assets/css/main.css",
+		"/C/Users/LxMinus/Desktop/ГИС/project/index.html",
+		"/C/Users/LxMinus/Desktop/Valorant/main.css",
+		"/C/Users/LxMinus/Desktop/Развёртки ГИС/index.html",
+		"/C/Users/LxMinus/Desktop/Развёртки ГИС/main.css",
+		"/C/Users/LxMinus/Desktop/Valorant/valorant.html",
+		"/C/Users/LxMinus/Downloads/Telegram Desktop/ГИС.rar",
+		"/C/Users/LxMinus/Desktop/Valorant/Assets/css/main.css",
+		"/S/Proba_with_map/Assets/css/main.css",
+		"/S/Proba_with_map/Proba_map.html",
+		"/C/Users/LxMinus/Desktop/Dlyasaita/Sait css.css",
+		"/C/Users/LxMinus/Desktop/Dlyasaita/SaitofVine.html",
+		"/C/Users/LxMinus/Desktop/Study/Ugadai_Chislo.cpp",
+		"/C/Users/LxMinus/Desktop/Study/новый 1.txt",
+		"/C/Users/LxMinus/Desktop/Для сайта/Sait css.css",
+		"/C/Users/LxMinus/Desktop/Для сайта/Sait of Vine.html",
+		"/C/Users/LxMinus/Desktop/Для сайта/сайт css.css",
+		"/C/Users/LxMinus/Desktop/Для сайта/Сайт винища.html",
+		"/C/Users/LxMinus/Desktop/Сайт винища.html",
+		"/C/Users/LxMinus/Desktop/сайт css.css"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"#25B1B1",
+			"popup_body",
+			".active",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/D/Zayavka_SSO/directions_from_appli.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 91575,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								82818,
+								82819
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 13164.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"default_dir": "D:\\Zayavka_SSO",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "/D/Quest_SSO/Pre_quest.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 888,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								888,
+								888
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										883,
+										887
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"region.orangish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										17,
+										21
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/D/Quest_SSO/first_quest.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 885,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								885,
+								885
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										880,
+										884
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"region.orangish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										17,
+										21
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/D/Quest_SSO/scnd_quest.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2212,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1445,
+								1445
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1443,
+										1444
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"region.orangish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1290,
+										1291
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/D/Quest_SSO/third_quest.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1561,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1561,
+								1561
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1556,
+										1560
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"region.orangish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										17,
+										21
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/D/Zayavka_SSO/last_page_application.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1845,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1816,
+								1372
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1812,
+										1815
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"region.orangish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1373,
+										1376
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.4828125,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "package.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

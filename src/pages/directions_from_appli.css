@@ -1,0 +1,49 @@
+body, html{
+	margin: 0px;
+	padding: 0px;
+	background: radial-gradient(51.85% 51.85% at 49.04% 48.15%, #292929 0%, #0F0F0F 100%);
+}
+.main_application_sect{
+	width: 1920px;
+	height: 1080px;
+}
+.main_application_block_direct{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 82.03%;
+	margin:0px auto;
+	padding-top: 1.31%;
+}
+.h1_application_direct{
+	max-height: 50px;
+	font-family: 'Mulish', sans-serif;
+	font-size: 40px;
+	font-weight: 400;
+	color: #FFFFFF;
+	margin: 0px;
+}
+.first_block{
+	margin-top: 100px;
+	display: flex;
+}
+.scnd_block{
+	display: flex;
+	margin-top: 30px;
+}
+svg{
+	cursor: pointer;
+}
+.blue_hover{
+	fill: #25B1B1;
+}
+.white_hover{
+	fill: #FFFFFF;
+}
+.direct:hover .strokers{
+	stroke: #25B1B1;
+}
+.direct:hover .filles{
+	fill: #25B1B1;
+}

@@ -1,0 +1,99 @@
+@font-face {
+    font-family: SCPbold;
+    src: url('/src/font/SourceCodePro-Bold.ttf');
+  }
+  @font-face {
+    font-family: SCPsb;
+    src: url('/src/font/SourceCodePro-SemiBold.ttf');
+  }
+  @font-face {
+    font-family: SCPlight;
+    src: url('/src/font/SourceCodePro-Light.ttf');
+  }
+  @font-face {
+    font-family: SCPregular;
+    src: url('/src/font/SourceCodePro-Regular.ttf');
+  }
+.calendar header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.calendar header button,
+.calendar header select {
+    margin: 0 4px;
+}
+
+.calendar table {
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 0px 86px 0px 395px;
+}
+
+.calendar th {
+    color: #BCBCBC;
+    font-family: 'SCPregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    vertical-align: middle;
+    text-align: center;
+    height: 36px;
+}
+
+.calendar .day {
+    color: #BCBCBC;
+    font-family: 'SCPregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    padding: 35px 25px;
+    vertical-align: middle;
+    text-align: center;
+    border: 2px solid transparent;
+}
+
+.calendar .day:hover {
+    border: 1px solid #25B1B1;
+    cursor: pointer;
+}
+
+.calendar .day.selected {
+    border: 2px solid dodgerblue;
+}
+
+.calendar .day.today {
+    background-color: #25B1B1;
+    color: #BCBCBC;
+    font-family: 'SCPregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+}
+
+.calendar .day.today:hover {
+    border: 1px solid #25B1B1;
+}
+
+.calendar .day.today.selected {
+    border: 2px solid lightgray;
+}
+.calendar__month{
+    width: 156px;
+    color: rgba(37, 177, 177, 0.75);
+    font-family: 'SCPsb';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 33px;
+    text-align: center;
+    margin: 0px 1354px 25px 450px;
+}
+.dayonweek{
+    padding-bottom: 25px;
+}
