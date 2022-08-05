@@ -36,7 +36,11 @@ const ThirdPageApp = () => {
                         <input className="inputs_appli" type="text" placeholder="@ubitsa_2009"/>
                     </div>
                 </div>
-                <p>*данные используются исключительно для связи</p>
+                <div className="direction_input_third_page_appli">
+                    <h5>Направление</h5>
+                    <input className="inputs_appli" type="text" placeholder="Game Dev" />
+                </div>
+                <p className="attention_appli">*данные используются исключительно для связи</p>
                 <button>отправить</button>
             </div>
         </div>

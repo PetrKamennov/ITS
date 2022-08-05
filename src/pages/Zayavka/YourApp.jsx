@@ -16,17 +16,13 @@ const YourApp = () => {
             </div>
             <div className="main_your_appli">
                 <div className="first_block_your_appli">
-                    <h4>Направление</h4>
-                    <input className="inputs_app direction_inp" type="text" placeholder="поле для ввода"/>
+                    <h4 className="h4_appli">Направление</h4>
+                    <input className="inputs_app direction_inp" type="text" placeholder="Поле для ввода"/>
                 </div>
-                <div>
-                    <h4>Информация о направлении</h4>
-                    <div className="input_width">
-                        <div className="input_shelter_width">
-                            <input className="inputs_app info_inp" type="text" size="40"
+                <div className="scnd_block_your_appli">
+                    <h4 className="h4_appli">Информация о направлении</h4>
+                            <textarea className="inputs_app info_inp" rows="10" cols="51"
                                    placeholder="Расскажи немного о выбранном тобой направлении"/>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

@@ -14,7 +14,7 @@ body, html{
 	align-items: center;
 	max-width: 82.03%;
 	margin:0px auto;
-	padding-top: 2.5%;
+	padding-top: 0.5%;
 }
 .h1_application_3page{
 	max-height: 50px;
@@ -29,7 +29,7 @@ h5{
 	font-size: 25px;
 	font-weight: 300;
 	color: #FFFFFF;
-	margin: 0px 0px 9px 0px;
+	margin: 0px 0px 9px 5px;
 }
 .inputs{
 	display: flex;
@@ -52,9 +52,9 @@ h5{
 	margin-top: 4.27%;
 }
 .scnd_inp{
-	margin-top: 1.41%;
+	margin-top: 2.41%;
 }
-p{
+.attention_appli{
 	font-family: 'Mulish', sans-serif;
 	font-size: 19px;
 	font-weight: 300;
@@ -71,4 +71,7 @@ button{
 	border-radius: 98px;
 	border: 6px solid #25B1B1;
 	margin-top: 3.44%;
+}
+.direction_input_third_page_appli{
+	margin-top: 2.41%;
 }
