@@ -1,6 +1,7 @@
 import React from 'react';
 import '../scnd_page_application.css'
-import {Link, Route, Router, Routes } from 'react-router-dom';
+import {Link} from "react-router-dom";
+
 const SendAppli = () => {
     return (
             <div className="SendAppli">
